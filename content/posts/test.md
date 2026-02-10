@@ -1,5 +1,5 @@
 ---
-title: Deploy your Laravel app on your VPS
+title: test
 category: DevOps
 tags: Laravel, Deploy, VPS, Security, CI/CD
 excerpt: Your guide to deploying your first app on a private VPS - PHP, Nginx and Postgres as case study.
