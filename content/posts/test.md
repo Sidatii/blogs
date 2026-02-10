@@ -19,3 +19,5 @@ Our target app is a Laravel blade app using a Postgres database and an Nginx ser
 
 
 Often, when we think about deploying, it usually means we need to install the application on our server. However for php apps in this case, deploying always means copying the repo to the server, building frontend assets and setting up the server to accept requests.
+Often, when we think about deploying, it usually means we need to install the application on our server. However for php apps in this case, deploying always means copying the repo to the server, building frontend assets and setting up the server to accept requests.
+Often, when we think about deploying, it usually means we need to install the application on our server. However for php apps in this case, deploying always means copying the repo to the server, building frontend assets and setting up the server to accept requests.
