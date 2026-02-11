@@ -129,17 +129,17 @@ K = Log(N)
 
 $$
 \begin{align*}
-&\frac{N}{2^k} = 1 \\[6pt]
+&\frac{N}{2^k} = 1 \\
 &\text{where:} \\
 &\quad N = \text{number of elements in the array} \\
 &\quad k = \text{number of steps to perform} \\
-&\quad 2 = \text{divider chosen} \\[10pt]
-
-&\text{Set both sides to the power of } 2^k: \\[6pt]
+&\quad 2 = \text{divider chosen} \\
+\\
+&\text{Set both sides to the power of } 2^k: \\
 &N = 1 \times 2^k \\
-&N = 2^k \\[10pt]
-
-&\text{Taking logarithm on both sides:} \\[6pt]
-&k = \log_2 N
+&N = 2^k \\
+\\
+&\text{Taking logarithm on both sides:} \\
+&k = \log_2 N \\
 \end{align*}
 $$
