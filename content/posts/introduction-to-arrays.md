@@ -126,7 +126,6 @@ This can be also written as:
 
 K = Log(N)
 
-```tex
 $$
 \begin{align*}
 &\frac{N}{2^k} = 1 \\
@@ -143,4 +142,3 @@ $$
 &k = \log_2 N \\
 \end{align*}
 $$
-```
