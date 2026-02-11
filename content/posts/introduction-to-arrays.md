@@ -1,5 +1,5 @@
 ---
-title: \[DSA\] - Introduction to arrays
+title: [DSA] - Introduction to arrays
 category: DSA
 tags: DSA, algorithms
 excerpt: An Introduction to arrays for beginners in which we get to discover a very interesting data structure that you deal with everyday as an engineer.
@@ -37,13 +37,13 @@ There is no insert at or push or pop.
 
   - Refer to the linked repo
 
-  ```bash
-                  git clone git@github.com:ThePrimeagen/kata-machine.git
-                  cd kata-machine
-                  yarn install
-                  yarn generate
-                  nvim $(yarn -s day)
-  ```
+```bash
+git clone git@github.com:ThePrimeagen/kata-machine.git
+cd kata-machine
+yarn install
+yarn generate
+nvim $(yarn -s day)
+```
 
 ### Linear Search
 
@@ -60,7 +60,7 @@ export default function linear_search(haystack: number[], needle: number): boole
 - Run test
 
 ```bash
-              npx jest <Test name> 
+npx jest <Test name> 
 ```
 
 ### Binary Search
@@ -126,7 +126,7 @@ This can be also written as:
 
 K = Log(N)
 
-```markdown
+```tex
 $$
 \begin{align*}
 &\frac{N}{2^k} = 1 \\
