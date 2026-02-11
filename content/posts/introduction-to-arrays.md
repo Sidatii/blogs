@@ -1,5 +1,5 @@
 ---
-title: [DSA] - Introduction to arrays
+title: DSA - Introduction to arrays
 category: DSA
 tags: DSA, algorithms
 excerpt: An Introduction to arrays for beginners in which we get to discover a very interesting data structure that you deal with everyday as an engineer.
