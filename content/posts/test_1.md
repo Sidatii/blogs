@@ -3,7 +3,7 @@ title: Testing the newsletter
 category: Manhood
 tags: Laravel, Deploy, VPS, Security, CI/CD
 excerpt: Your guide to deploying your first app on a private VPS - PHP, Nginx and Postgres as case study.
-published_at:
+published_at: 2026-02-11
 is_featured: true
 ---
 
