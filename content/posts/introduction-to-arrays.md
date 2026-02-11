@@ -127,7 +127,6 @@ This can be also written as:
 K = Log(N)
 
 
-
 $$
 \begin{align*}
 &\frac{N}{2^k} = 1 \\
