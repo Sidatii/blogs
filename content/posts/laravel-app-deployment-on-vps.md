@@ -56,10 +56,3 @@ public static void main(String args[]) {
 | 2  | SyncOrders  | Success | 1       | —                  |
 | 3  | ExportData  | Failed  | 5       | 2026-02-11 09:10   |
 
-### great
-
-Our environment for this article is a virtual private server (VPS) of a not so important provider. The machine runs ubuntu server 24.04. That is all you need to know for now. the machine has barely nothing besides linux coreutiles (you may need to install curl or ssh as per your need but nothing is needed at this stage.).
-
-Our target app is a Laravel blade app using a Postgres database and an Nginx server.
-
-Often, when we think about deploying, it usually means we need to install the application on our server. However for php apps in this case, deploying always means copying the repo to the server, building frontend assets and setting up the server to accept requests.
