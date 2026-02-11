@@ -1,9 +1,9 @@
 ---
-title: Testing the newsletter
-category: Manhood
-tags: Laravel, Deploy, VPS, Security, CI/CD
-excerpt: Your guide to deploying your first app on a private VPS - PHP, Nginx and Postgres as case study.
-published_at: 2026-02-11
+title: Productivity for engineers
+category: Productivity
+tags: well-being, success, code
+excerpt: Your guide be a better engineer.
+published_at: 2026-02-09
 is_featured: true
 ---
 
