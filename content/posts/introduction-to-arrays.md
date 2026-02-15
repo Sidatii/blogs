@@ -22,8 +22,8 @@ There is no insert at or push or pop.
   3) puts it in the memory addressing
   4) goes and grabs/delete/insert the value at that address
 
-![Black](images/oob-black.png)
 ![White](images/oob-white.png)
+![Black](images/oob-black.png)
 
   ### Magic formula
 
