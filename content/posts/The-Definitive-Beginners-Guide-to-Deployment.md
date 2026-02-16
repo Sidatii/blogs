@@ -9,6 +9,8 @@ is_featured: true
 
 ![Thumbnail](images/deployment-thumbnail.png)
 
+---
+
 Congratulations. You’ve built something. It’s beautiful, it’s functional, and currently, the only person who can see it is you and your cat.
 
 It 'works on my machine' feeling is great until you realize your machine isn't the internet. In this guide, we’re taking your Laravel app from the safety of localhost to the wild west of production. Whether you're renting a VPS in the cloud or dusting off an old laptop for a home server, this is your roadmap to going live. We’ll demystify the LEMP stack, master Nginx configurations, and secure your digital house with SSL (Certbot) and a WAF—all while keeping your sanity (and your cat) intact. Stop fearing the terminal and start owning your deployment.
