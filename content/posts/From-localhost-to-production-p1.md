@@ -1,13 +1,14 @@
 ---
 title: DevOps for devs - From Localhost to production - Part 1.
 category: DevOps
-tags: something, tutorial
-excerpt: A great post about something
-published_at: 2026-02-09
+tags: Deploy, develop, VPS, HomeLab, Production.
+excerpt: This blog is the first part of a DevOps for devs series. In this blog, I am taking you through an enjoyable journey of discovering the world of DevOps, CI/CD and deploying to production.
+published_at: 2026-02-16
 ---
 
-[Thumbnail](images/Thumbnail-part1.png)
-          ---
+[Thumbnail](images/thumbnail-part1.png)
+
+> ***Image by Author.***
 
 Hey there, fellow developer! 👋
 
