@@ -6,6 +6,9 @@ excerpt: A great post about something
 published_at: 2026-02-09
 ---
 
+[Thumbnail](images/Thumbnail-part1.png)
+          ---
+
 Hey there, fellow developer! 👋
 
 Remember that amazing Java Spring Boot + Angular app you just built? The one that works perfectly on your `localhost`? Now comes the exciting (and slightly terrifying) part: deploying it to a real server where actual people can use it.
