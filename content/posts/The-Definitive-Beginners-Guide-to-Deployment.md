@@ -1,5 +1,5 @@
 ---
-title: "From Localhost to 'Holy Crap, It’s Live!': The Definitive Beginner’s Guide to Deployment"
+title: From Localhost to Holy Crap, It’s Live! The Definitive Beginner’s Guide to Deployment
 category: DevOps
 tags: Cloud, Deployment, VPS, Beginner, Learn
 excerpt: That "It works on my machine" feeling is great until you realize your machine isn't the internet.
