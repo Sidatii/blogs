@@ -13,7 +13,7 @@ Congratulations. You’ve built something. It’s beautiful, it’s functional, 
 
 It 'works on my machine' feeling is great until you realize your machine isn't the internet. In this guide, we’re taking your Laravel app from the safety of localhost to the wild west of production. Whether you're renting a VPS in the cloud or dusting off an old laptop for a home server, this is your roadmap to going live. We’ll demystify the LEMP stack, master Nginx configurations, and secure your digital house with SSL (Certbot) and a WAF—all while keeping your sanity (and your cat) intact. Stop fearing the terminal and start owning your deployment.
 
-> [!NOTE]: In this blog, we are using PHP Laravel as a case study. But most of the information presented here remain valuable for all kinds of technologies.
+> **Note:** In this blog, we are using PHP Laravel as a case study. But most of the information presented here remain valuable for all kinds of technologies.
 
 Moving your Laravel app from `localhost` to a **VPS (Virtual Private Server)** or a **Home Server** feels like moving out of your parents' basement. It’s exciting, but suddenly you’re responsible for the electricity, the plumbing, and making sure the front door is locked.
 
@@ -23,7 +23,7 @@ Don't panic. Let’s break down the journey without the jargon-induced migraine.
 
 On your computer, everything is friendly. You have your database, your PHP, and your server all hanging out in a folder. In **Production**, these things are managed by separate "services" that need to talk to each other over a network.
 
-> [!TIP] **The Golden Rule:** If you find yourself saying "But it worked on my machine!", take a shot of espresso. You’ve officially entered the world of DevOps.
+> **The Golden Rule:** If you find yourself saying "But it worked on my machine!", take a shot of espresso. You’ve officially entered the world of DevOps.
 
 
 ## 2. Choosing Your "House" (VPS or Home Server?)
@@ -31,7 +31,7 @@ On your computer, everything is friendly. You have your database, your PHP, and 
 * **The VPS (The Managed Apartment):** You rent a slice of a powerful computer in a data center (Hetzner, DigitalOcean, AWS). It has a public IP, it’s fast, and it never sleeps.
 * **The Home Server (The DIY Shack):** An old laptop or a Raspberry Pi. It’s free, but you have to deal with "Port Forwarding" and your ISP being annoyed at you.
 
-**Beginner Tip:** Start with a $5/month VPS. It saves you the headache of opening your home network to hackers named `Xx_Shadow_xX`.
+> **Beginner Tip:** Start with a $5/month VPS. It saves you the headache of opening your home network to hackers named `Xx_Shadow_xX`.
 
 
 ## 3. The LEMP Stack: The Kitchen Staff
@@ -81,7 +81,7 @@ server {
 
 ```
 
-*Pro-tip: Run `sudo nginx -t` after editing. If it says "syntax is ok," you didn't break the internet.*
+> **Pro-tip:**Run `sudo nginx -t` after editing. If it says "syntax is ok," you didn't break the internet.*
 
 
 ## 5. Domain Linking & SSL: The "Locksmith"
@@ -91,7 +91,7 @@ A website without a green padlock (HTTPS) is like a store in a shady alleyway—
 1. **DNS:** Go to your domain provider (Free domains are available, check the pro-tip) and point an **A Record** to your Server IP.
 2. **Certbot:** This is a free tool that gives you an SSL certificate automatically.
 
-*Pro-tip: You can grab free domains from [Digital](https://domain.digitalplat.org/)
+> **Pro-tip:** You can grab free domains from -> **[Digital Plate](https://domain.digitalplat.org/)**
 
 ```bash
 sudo apt install certbot python3-certbot-nginx
