@@ -2,8 +2,7 @@
 title: From Localhost to Holy Crap, It’s Live! The Definitive Beginner’s Guide to Deployment
 category: DevOps
 tags: Cloud, Deployment, VPS, Beginner, Learn
-excerpt: It 'works on my machine' feeling is great until you realize your machine isn't the internet.
-In this guide, we’re taking your Laravel app from the safety of localhost to the wild west of production. Whether you're renting a VPS in the cloud or dusting off an old laptop for a home server, this is your roadmap to going live. We’ll demystify the LEMP stack, master Nginx configurations, and secure your digital house with SSL (Certbot) and a WAF—all while keeping your sanity (and your cat) intact. Stop fearing the terminal and start owning your deployment.
+excerpt: A Beginner friendly guide to your first deployment. The goal of this blog is to take you out of your Comfort zone and discover the world of software delivery.:
 published_at: 2026-02-16
 is_featured: true
 ---
@@ -13,6 +12,8 @@ is_featured: true
 ![Thumbnail](images/deployment-thumbnail.png)
 
 Congratulations. You’ve built something. It’s beautiful, it’s functional, and currently, the only person who can see it is you and your cat.
+
+It 'works on my machine' feeling is great until you realize your machine isn't the internet. In this guide, we’re taking your Laravel app from the safety of localhost to the wild west of production. Whether you're renting a VPS in the cloud or dusting off an old laptop for a home server, this is your roadmap to going live. We’ll demystify the LEMP stack, master Nginx configurations, and secure your digital house with SSL (Certbot) and a WAF—all while keeping your sanity (and your cat) intact. Stop fearing the terminal and start owning your deployment.
 
 ![NOTE] In this blog, we are using PHP Laravel as a case study. But most of the information presented here remain valuable for all kinds of technologies.
 
