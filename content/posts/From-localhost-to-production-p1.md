@@ -9,9 +9,9 @@ published_at: 2026-02-16
 ![Thumbnail](images/thumbnail-part-01.png)
 
 
-# From Localhost to Production - Part 2: From Localhost to Containers
+# From Localhost to Production - Part 1: From Localhost to Containers
 
-Hey guys!
+**Hey guys!**
 
 Let me guess — you developed an application and it works perfectly on `localhost`. Now you want to deploy it to a real server where actual people can use it.
 
