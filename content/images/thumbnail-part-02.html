@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Thumbnail - Part 02</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #191724;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }
+  .card {
+    width: 1200px;
+    height: 630px;
+    background: #1f1d2e;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #26233a;
+  }
+  /* Top accent bar */
+  .top-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #c4a7e7, #eb6f92);
+  }
+  /* Left side content */
+  .left {
+    position: absolute;
+    left: 72px;
+    top: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    max-width: 680px;
+  }
+  .series-label {
+    color: #6e6a86;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+  .part-label {
+    color: #c4a7e7;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .title {
+    color: #e0def4;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+    margin-bottom: 22px;
+  }
+  .title span {
+    color: #eb6f92;
+  }
+  .subtitle {
+    color: #908caa;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 42px;
+    line-height: 1.4;
+  }
+  .tags {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .tag {
+    background: #26233a;
+    color: #c4a7e7;
+    border: 1px solid #c4a7e755;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-family: 'Courier New', monospace;
+  }
+  /* Bottom meta bar */
+  .bottom-bar {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 60px;
+    background: #191724;
+    border-top: 1px solid #26233a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 72px;
+  }
+  .meta-left {
+    color: #6e6a86;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Courier New', monospace;
+  }
+  .meta-right {
+    color: #c4a7e7;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+  }
+  /* Vertical divider */
+  .divider {
+    position: absolute;
+    top: 72px;
+    bottom: 72px;
+    right: 380px;
+    width: 1px;
+    background: #26233a;
+  }
+  /* Part number watermark */
+  .part-watermark {
+    position: absolute;
+    right: 52px;
+    bottom: 75px;
+    font-size: 200px;
+    font-weight: 900;
+    color: #c4a7e7;
+    opacity: 0.06;
+    line-height: 1;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    letter-spacing: -8px;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top-bar"></div>
+
+  <!-- Part number watermark -->
+  <div class="part-watermark">02</div>
+
+  <!-- Vertical divider -->
+  <div class="divider"></div>
+
+  <!-- SVG decorative right side -->
+  <svg width="1200" height="630" viewBox="0 0 1200 630"
+       style="position:absolute;top:0;left:0;pointer-events:none;">
+    <defs>
+      <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#908caa" opacity="0.4"/>
+      </marker>
+    </defs>
+    
+        <!-- Shield shape -->
+        <path d="M930,70 L1050,120 L1050,230 Q1050,310 930,360 Q810,310 810,230 L810,120 Z" 
+              fill="none" stroke="#c4a7e7" stroke-width="2" opacity="0.35"/>
+        <path d="M930,100 L1020,140 L1020,235 Q1020,295 930,335 Q840,295 840,235 L840,140 Z" 
+              fill="none" stroke="#eb6f92" stroke-width="1.5" opacity="0.25"/>
+        <!-- Lock icon inside shield -->
+        <rect x="900" y="210" width="60" height="48" rx="5" fill="none" stroke="#c4a7e7" stroke-width="2" opacity="0.5"/>
+        <path d="M913,210 L913,195 Q913,175 930,175 Q947,175 947,195 L947,210" fill="none" stroke="#c4a7e7" stroke-width="2" opacity="0.5"/>
+        <circle cx="930" cy="233" r="7" fill="#c4a7e7" opacity="0.4"/>
+        <!-- DNS chain -->
+        <text x="930" y="440" text-anchor="middle" fill="#c4a7e7" font-size="11" opacity="0.4" font-family="monospace">myapp.com</text>
+        <line x1="930" y1="445" x2="930" y2="465" stroke="#908caa" stroke-width="1" opacity="0.3"/>
+        <text x="930" y="478" text-anchor="middle" fill="#908caa" font-size="11" opacity="0.4" font-family="monospace">45.123.45.67</text>
+        <!-- Horizontal bar top (Nginx) -->
+        <rect x="810" y="490" width="240" height="28" rx="4" fill="none" stroke="#eb6f92" stroke-width="1.5" opacity="0.3"/>
+        <text x="930" y="509" text-anchor="middle" fill="#eb6f92" font-size="11" opacity="0.4" font-family="monospace">NGINX  REVERSE PROXY</text>
+        
+  </svg>
+
+  <!-- Left Content -->
+  <div class="left">
+    <div class="series-label">DevOps for Devs &mdash; From Localhost to Production</div>
+    <div class="part-label">Part Two</div>
+    <div class="title">
+      Infrastructure <span>&amp;</span> Security
+    </div>
+    <div class="subtitle">A step-by-step guide for developers.</div>
+    <div class="tags">
+      <div class="tag">Nginx</div>
+<div class="tag">DNS</div>
+<div class="tag">SSL / TLS</div>
+<div class="tag">WAF</div>
+<div class="tag">Access Control</div>
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="bottom-bar">
+    <div class="meta-left">devops-for-devs.com</div>
+    <div class="meta-right">02 / 03</div>
+  </div>
+</div>
+</body>
+</html>
