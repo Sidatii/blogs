@@ -6,7 +6,7 @@ excerpt: This blog is the first part of a DevOps for devs series. In this blog, 
 published_at: 2026-02-16
 ---
 
-![Thumbnail](images/thumbnail-part-03.png)
+![Thumbnail](images/thumbnail-part-01.png)
 
 ***Image by Author.***
 
