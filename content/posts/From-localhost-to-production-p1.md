@@ -1,23 +1,84 @@
 ---
-title: DevOps for devs - From Localhost to production - Part 1.
+title: DevOps for devs - From Localhost to Production - P1.
 category: DevOps
 tags: Deploy, develop, VPS, HomeLab, Production.
 excerpt: This blog is the first part of a DevOps for devs series. In this blog, I am taking you through an enjoyable journey of discovering the world of DevOps, CI/CD and deploying to production.
 published_at: 2026-02-16
 ---
 
-[Thumbnail](images/thumbnail-part1.png)
+![Thumbnail](images/thumbnail-part1.png)
 
-> ***Image by Author.***
+***Image by Author.***
 
-Hey there, fellow developer! 👋
+# Part 1: From Localhost to Containers
 
-Remember that amazing Java Spring Boot + Angular app you just built? The one that works perfectly on your `localhost`? Now comes the exciting (and slightly terrifying) part: deploying it to a real server where actual people can use it.
+Hey guys!
 
-I know what you're thinking: "There are SO many terms! Docker? WAF? Jenkins? DNS? Help!" Don't worry—we're going to walk through this together, and I promise to explain everything in plain English. By the end of this guide, you'll have your app running on a VPS or HomeLab, complete with automated deployments, security, and all the professional touches.
+Let me guess — you developed an application and it works perfectly on `localhost`. Now you want to deploy it to a real server where actual people can use it.
 
-Think of this as your deployment roadmap. We'll build everything step-by-step, explaining each concept as we go. Ready? Let's dive in!
+You Google "deploying (java, python...) app" and get hit with: Docker, Kubernetes, Jenkins, CI/CD, reverse proxy, SSL certificates...
 
+**Your head spins. You close the laptop. Maybe tomorrow.**
+
+I've been there. That's why I created this series.
+
+## What Makes This Different?
+
+Most tutorials are either:
+1. **The "Copy-Paste Special"** - Run these commands and pray
+2. **The "Enterprise Encyclopedia"** - 200 pages assuming you know everything
+
+**This series is different.** We'll build your deployment from the ground up, explaining every concept in plain English. No magic commands. No assumptions.
+
+Think of it like building a house:
+- **Part 1:** Lay the foundation (Docker & containers)
+- **Part 2:** Build the structure (Nginx, DNS, security)
+- **Part 3:** Add smart features (Jenkins CI/CD, monitoring)
+
+## The 3-Part Journey
+
+### **Part 1: Foundation & Containerization** (You are here!)
+By the end: Your apps will be containerized and running in Docker. You'll understand *why* containers matter and *how* they work.
+
+**Covers:** VPS setup, Docker basics, containerizing Java + Angular, networking & volumes
+
+### **Part 2: Infrastructure & Security** <- [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-2)
+By the end: Your app will be accessible via a custom domain with HTTPS, protected by security layers.
+
+**Covers:** Nginx reverse proxy, DNS, SSL certificates, WAF, user management
+
+### **Part 3: Automation & Going Live** <- [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-3)
+By the end: Fully automated deployment pipeline that professionals use.
+
+**Covers:** Jenkins CI/CD, monitoring, backups, troubleshooting, launch checklist
+
+## Who Is This For?
+
+**Perfect for you if:**
+✅ You have a working software development experience.
+✅ You've never deployed to production or not fully engaged in the deployment process due to team responsibility.
+✅ You want to understand the *why*, not just the *how*
+
+**You'll need:**
+- A VPS (DigitalOcean, Linode, Vultr, Contabo or others) - $5-10/month
+- Basic terminal knowledge
+- 2-4 hours for Part 1 implementation
+
+## My Promise
+
+I'll explain, not just instruct. You'll understand *why* we're doing things, not just *what* commands to run. Real-world analogies, actual code, common errors solved.
+
+We're not just making your app "work on the internet." We're making it **production-ready**.
+
+**Ready to start?**
+
+By the end of Part 1, you'll have a secure VPS running your containerized applications. 
+
+Grab your coffee, fire up your terminal, and let's turn that localhost app into something the world can see.
+
+> ***One final disclaimer***: In order to be more practical, we are using Java and angular for demonstration. However, every piece of knowledge presented here remain valid for all technologies with some minor differences. I count on you to solve them on your own since it is your specialty.
+
+**Let's dive in!**
 
 ## Understanding the Big Picture
 
@@ -34,13 +95,12 @@ Before we start typing commands, let's understand what we're building. Imagine y
 
 Got it? Awesome! Let's build this house.
 
-
 ## What You'll Need
 
 ### On Your Local Machine
 - Git installed
 - Basic terminal/command line knowledge
-- Your Java + Angular application code
+- Your application application code
 - An SSH client (built into Mac/Linux, use PuTTY for Windows)
 
 ### For Your VPS
@@ -49,7 +109,7 @@ Got it? Awesome! Let's build this house.
   - Linode
   - Vultr
   - Or a HomeLab server if you're running one at home
-- Ubuntu 22.04 LTS installed (we'll use this in our examples)
+- Ubuntu 24.04 LTS installed (we'll use this in our examples)
 - At least 2GB RAM, 2 CPU cores, 50GB storage
 - Root or sudo access
 
@@ -57,6 +117,8 @@ Got it? Awesome! Let's build this house.
 - A domain name (from Namecheap, Google Domains, etc.) - $10-15/year
 - A GitHub/GitLab account for your code repository
 
+> [!TIP] You can get a free domain name through the open source community.
+> Visit [Digital Plat](https://domain.digitalplat.org/) and grab your free domain.
 
 ## Part 1: Setting Up Your VPS
 
@@ -375,9 +437,7 @@ volumes:
 DB_PASSWORD=super_secret_password_change_me
 ```
 
-**Security tip**: Never commit `.env` to Git! Add it to `.gitignore`.
-
-
+> [!DANGER] Never commit `.env` to Git! Add it to `.gitignore`.
 
 ## What's Next?
 
@@ -406,6 +466,6 @@ Your app will go from "it works" to "it's production-ready."
 - User management and access control
 
 
-*Subscribe to my newsletter for updates!*
+> [!IMP] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
 
-- [-> Read Part 2](https://outofbounds.qzz.io/from-localhost-to-production-p2)
+- [Read Part 2](https://outofbounds.qzz.io/from-localhost-to-production-p2)
