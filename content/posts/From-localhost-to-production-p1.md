@@ -437,7 +437,7 @@ volumes:
 DB_PASSWORD=super_secret_password_change_me
 ```
 
-> [!DANGER] Never commit `.env` to Git! Add it to `.gitignore`.
+> [!CAUTION] Never commit `.env` to Git! Add it to `.gitignore`.
 
 ## What's Next?
 
@@ -466,6 +466,6 @@ Your app will go from "it works" to "it's production-ready."
 - User management and access control
 
 
-> [!IMP] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
+> [!IMPORTANT] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
 
 - [Read Part 2](https://outofbounds.qzz.io/from-localhost-to-production-p2)
