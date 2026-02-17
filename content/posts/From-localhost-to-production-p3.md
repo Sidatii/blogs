@@ -544,23 +544,6 @@ Deploying an application is like launching a rocket 🚀. There are many moving 
 
 You've built all of this! Take a moment to appreciate how far you've come.
 
-### Resources for Continued Learning
-
-- [Docker Documentation](https://docs.docker.com/)
-- [Nginx Admin Guide](https://www.nginx.com/resources/admin-guide/)
-- [Spring Boot Deployment Guide](https://spring.io/guides/gs/spring-boot-docker/)
-- [Angular Deployment Guide](https://angular.io/guide/deployment)
-- [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-
-**Remember:** Every senior developer was once a junior developer who didn't give up. You've got this! 💪
-
-Happy deploying!
-
-*Questions? Stuck somewhere? The best developers aren't those who never face problems—they're the ones who know how to debug and ask for help. Keep building, keep learning!*
-
-**About the Author:** A developer who has deployed apps, broken things, fixed them, and lived to tell the tale. Currently enjoying the sweet spot between "it works on my machine" and "it works in production."
-
 ## Series Complete!
 
 You made it! You've gone from "it works on localhost" to "it's live in production with automated deployments."
@@ -593,18 +576,29 @@ You're not done learning—you're just getting started:
 ### Share Your Success!
 Deployed your app? I'd love to hear about it! 
 
-Connect with me:
-- LinkedIn: [Sidati NOUHI](https://www.linkedin.com/in/sidati-nouhi/)
-- X: [Your Twitter](https://x.com/SidatiNouhi)
-- Email: [Your Email](sidatnouhi@gmail.com)
+**The best developers aren't those who never face problems—they're the ones who know how to debug and ask for help. Keep building, keep learning!**
 
-> [!NOTE] **Remember:** Every expert was once a beginner. You've got this!
+*Questions? Stuck somewhere? Ask or share your ideas with me:*
+- LinkedIn: [Sidati-nouhi](https://www.linkedin.com/in/sidati-nouhi/)
+- X: [SidatiNouhi](https://x.com/SidatiNouhi)
+- Contact Page: [Go to page](https://outofbounds.qzz.io/contact)
+- Or just leave a comment here!
 
-Happy deploying!
-
----
+> [!NOTE] **About the Author:** A developer who has deployed apps, broken things, fixed them, and lived to tell the tale. Currently enjoying the sweet spot between "it works on my machine" and "it works in production."
 
 ### The Complete Series:
-- **Part 1:** Foundation & Containerization ([link](https://outofbounds.qzz.io/from-localhost-to-production-p1))
-- **Part 2:** Infrastructure & Security ([link](https://outofbounds.qzz.io/from-localhost-to-production-p2))
-- **Part 3:** Automation & Going Live ([link](https://outofbounds.qzz.io/from-localhost-to-production-p3))
+- **Part 1:** Foundation & Containerization [-> HERE](https://outofbounds.qzz.io/from-localhost-to-production-p1)
+- **Part 2:** Infrastructure & Security [->HERE](https://outofbounds.qzz.io/from-localhost-to-production-p2)
+- **Part 3:** Automation & Going Live [->HERE](https://outofbounds.qzz.io/from-localhost-to-production-p3)
+
+> [!IMPORTANT] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
+---
+
+### Resources for Continued Learning
+
+- [Docker Documentation](https://docs.docker.com/)
+- [Nginx Admin Guide](https://www.nginx.com/resources/admin-guide/)
+- [Spring Boot Deployment Guide](https://spring.io/guides/gs/spring-boot-docker/)
+- [Angular Deployment Guide](https://angular.io/guide/deployment)
+- [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)

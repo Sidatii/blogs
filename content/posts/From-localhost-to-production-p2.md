@@ -519,4 +519,7 @@ From manual deployment to fully automated production pipeline.
 
 ---
 
-*Part 3 coming soon. Subscribe to get updated when it is published!*
+> [!IMPORTANT] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
+
+- [Read Part 1](https://outofbounds.qzz.io/from-localhost-to-production-p1)
+- [Read Part 3](https://outofbounds.qzz.io/from-localhost-to-production-p3)
