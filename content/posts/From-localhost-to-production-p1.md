@@ -6,11 +6,11 @@ excerpt: This blog is the first part of a DevOps for devs series. In this blog, 
 published_at: 2026-02-16
 ---
 
-![Thumbnail](images/thumbnail-part1.png)
+![Thumbnail](images/Thumbnail-part-03.png)
 
 ***Image by Author.***
 
-# Part 1: From Localhost to Containers
+# From Localhost to Production - Part 2: From Localhost to Containers
 
 Hey guys!
 
@@ -42,12 +42,12 @@ By the end: Your apps will be containerized and running in Docker. You'll unders
 
 **Covers:** VPS setup, Docker basics, containerizing Java + Angular, networking & volumes
 
-### **Part 2: Infrastructure & Security** coming soon <!--  [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-2) -->
+### **Part 2: Infrastructure & Security**  [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p2)
 By the end: Your app will be accessible via a custom domain with HTTPS, protected by security layers.
 
 **Covers:** Nginx reverse proxy, DNS, SSL certificates, WAF, user management
 
-### **Part 3: Automation & Going Live** coming soon<!-- [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-3) -->
+### **Part 3: Automation & Going Live** [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p3)
 By the end: Fully automated deployment pipeline that professionals use.
 
 **Covers:** Jenkins CI/CD, monitoring, backups, troubleshooting, launch checklist
@@ -55,9 +55,9 @@ By the end: Fully automated deployment pipeline that professionals use.
 ## Who Is This For?
 
 **Perfect for you if:**
-✅ You have a working software development experience.
-✅ You've never deployed to production or not fully engaged in the deployment process due to team responsibility.
-✅ You want to understand the *why*, not just the *how*
+- ✅ You have a working software development experience.
+- ✅ You've never deployed to production or not fully engaged in the deployment process due to team responsibility.
+- ✅ You want to understand the *why*, not just the *how*
 
 **You'll need:**
 - A VPS (DigitalOcean, Linode, Vultr, Contabo or others) - $5-10/month
@@ -120,7 +120,7 @@ Got it? Awesome! Let's build this house.
 > [!TIP] You can get a free domain name through the open source community.
 > Visit [Digital Plat](https://domain.digitalplat.org/) and grab your free domain.
 
-## Part 1: Setting Up Your VPS
+## 1. Setting Up Your VPS
 
 ### 1.1 Initial Server Access
 
@@ -179,7 +179,7 @@ sudo ufw status
 **What's a firewall?** Imagine your server has 65,535 doors (ports). A firewall keeps most of them locked and only opens the ones you need (like 80 for websites, 22 for SSH).
 
 
-## Part 2: Understanding Containerization
+## 2. Understanding Containerization
 
 ### What is Docker?
 
@@ -221,7 +221,7 @@ exit
 ```
 
 
-## Part 3: Dockerizing Your Applications
+## 3. Dockerizing Your Applications
 
 ### 3.1 Dockerizing the Java Backend
 
@@ -329,7 +329,7 @@ server {
 **Why Nginx for Angular?** Angular builds to static files (HTML, CSS, JS). Nginx is a super-fast web server perfect for serving these files. It's like using a specialized delivery service instead of a general courier.
 
 
-## Part 4: Docker Networking & Volumes
+## 4. Docker Networking & Volumes
 
 ### 4.1 Understanding Docker Networks
 
@@ -469,3 +469,4 @@ Your app will go from "it works" to "it's production-ready."
 > [!IMPORTANT] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
 
 - [Read Part 2](https://outofbounds.qzz.io/from-localhost-to-production-p2)
+- [Read Part 3](https://outofbounds.qzz.io/from-localhost-to-production-p3)
