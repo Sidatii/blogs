@@ -8,7 +8,6 @@ published_at: 2026-02-16
 
 ![Thumbnail](images/thumbnail-part-01.png)
 
-***Image by Author.***
 
 # From Localhost to Production - Part 2: From Localhost to Containers
 

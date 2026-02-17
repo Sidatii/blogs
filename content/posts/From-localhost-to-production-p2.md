@@ -2,13 +2,12 @@
 title: DevOps for devs - From Localhost to Production - P2.
 category: DevOps
 tags: Deploy, develop, VPS, HomeLab, Production.
-excerpt: This blog is the first part of a DevOps for devs series. In this blog, I am taking you through an enjoyable journey of discovering the world of DevOps, CI/CD and deploying to production.
+excerpt: This blog is the second part of a DevOps for devs series. In this blog, I am taking you through an enjoyable journey of discovering the world of DevOps, CI/CD and deploying to production.
 published_at: 2026-02-17
 ---
 
 ![Thumbnail](images/thumbnail-part-02.png)
 
-***Image by Author.***
 
 # From Localhost to Production - Part 2: Infrastructure, Security & Production Readiness
 
