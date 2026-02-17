@@ -42,12 +42,12 @@ By the end: Your apps will be containerized and running in Docker. You'll unders
 
 **Covers:** VPS setup, Docker basics, containerizing Java + Angular, networking & volumes
 
-### **Part 2: Infrastructure & Security** <- [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-2)
+### **Part 2: Infrastructure & Security** coming soon <!--  [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-2) -->
 By the end: Your app will be accessible via a custom domain with HTTPS, protected by security layers.
 
 **Covers:** Nginx reverse proxy, DNS, SSL certificates, WAF, user management
 
-### **Part 3: Automation & Going Live** <- [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-3)
+### **Part 3: Automation & Going Live** coming soon<!-- [Read here](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-part-3) -->
 By the end: Fully automated deployment pipeline that professionals use.
 
 **Covers:** Jenkins CI/CD, monitoring, backups, troubleshooting, launch checklist
@@ -437,7 +437,7 @@ volumes:
 DB_PASSWORD=super_secret_password_change_me
 ```
 
-> [!CAUTION] Never commit `.env` to Git! Add it to `.gitignore`.
+> [!WARNING] Never commit `.env` to Git! Add it to `.gitignore`.
 
 ## What's Next?
 
