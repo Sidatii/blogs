@@ -521,5 +521,5 @@ From manual deployment to fully automated production pipeline.
 
 > [!IMPORTANT] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
 
-- [Read Part 1](https://outofbounds.qzz.io/from-localhost-to-production-p1)
-- [Read Part 3](https://outofbounds.qzz.io/from-localhost-to-production-p3)
+- [Read Part 1](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p1)
+- [Read Part 3](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p3)

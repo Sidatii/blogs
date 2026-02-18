@@ -587,9 +587,9 @@ Deployed your app? I'd love to hear about it!
 > [!NOTE] **About the Author:** A developer who has deployed apps, broken things, fixed them, and lived to tell the tale. Currently enjoying the sweet spot between "it works on my machine" and "it works in production."
 
 ### The Complete Series:
-- **Part 1:** Foundation & Containerization [-> HERE](https://outofbounds.qzz.io/from-localhost-to-production-p1)
-- **Part 2:** Infrastructure & Security [->HERE](https://outofbounds.qzz.io/from-localhost-to-production-p2)
-- **Part 3:** Automation & Going Live [->HERE](https://outofbounds.qzz.io/from-localhost-to-production-p3)
+- **Part 1:** Foundation & Containerization [-> HERE](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p1)
+- **Part 2:** Infrastructure & Security [->HERE](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p2)
+- **Part 3:** Automation & Going Live [->HERE](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p3)
 
 > [!IMPORTANT] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
 ---

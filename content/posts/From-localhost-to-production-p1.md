@@ -467,5 +467,5 @@ Your app will go from "it works" to "it's production-ready."
 
 > [!IMPORTANT] If you like my content, you can *Subscribe* to my newsletter to get notified whenever new blogs are published!
 
-- [Read Part 2](https://outofbounds.qzz.io/from-localhost-to-production-p2)
-- [Read Part 3](https://outofbounds.qzz.io/from-localhost-to-production-p3)
+- [Read Part 2](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p2)
+- [Read Part 3](https://outofbounds.qzz.io/blog/devops-for-devs-from-localhost-to-production-p3)
