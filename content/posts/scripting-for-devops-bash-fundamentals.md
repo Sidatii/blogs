@@ -64,7 +64,7 @@ To access the value of a variable, prefix its name with a dollar sign (`$`):
 echo $my_variable
 ```
 
-This will output:
+This will output: Hello, World!
 
 ### Variable types
 
@@ -157,28 +157,27 @@ Bash provides several predefined variables that can be used to access informatio
 
 #### Table representation
 
-| Variable   | Description                                                      | Example Usage                                         |
-|------------|------------------------------------------------------------------|-------------------------------------------------------|
-| `$0`       | The name of the script or shell.                                 | `echo "Script name: $0"`                              |
-| `$1`,`$2`, | Positional parameters representing script arguments.             | `echo "First argument: $1"`                           |
-| `$#`       | The number of positional parameters passed to the script.        | `echo "Number of arguments: $#"`                      |
-| `$?`       | The exit status of the last command executed.                    | `echo "Exit status of the last command: $?"`          |
-| `$@`       | All positional parameters passed to the script.                  | `echo "All arguments: $@"`                            |
-| `$*`       | All positional parameters as a single word.                      | `echo "All arguments as a single word: $*"`           |
-| `$$`       | The process ID of the current shell.                             | `echo "Current shell process ID: $$"`                 |
-| `$!`       | The process ID of the last background command.                   | `echo "Process ID of the last background command: $!"`|
-| `$-`       | The current options set for the shell.                           | `echo "Current shell options: $-"`                    |
-| `$IFS`     | The Internal Field Separator.                                    | `echo "Internal Field Separator: $IFS"`               |
-| `$PS1`     | The primary prompt string.                                       | `echo "Primary prompt string: $PS1"`                  |
-| `$PS2`     | The secondary prompt string.                                     | `echo "Secondary prompt string: $PS2"`                |
-| `$RANDOM`  | A random number between 0 and 32767.                             | `echo "Random number: $RANDOM"`                       |
-| `$SECONDS` | The number of seconds since the shell was started.               | `echo "Seconds since shell started: $SECONDS"`        |
-| `$UID`     | The user ID of the current user.                                 | `echo "Current user ID: $UID"`                        |
-| `$USER`    | The username of the current user.                                | `echo "Current user: $USER"`                          |
-| `$HOME`    | The home directory of the current user.                          | `echo "Home directory: $HOME"`                        |
-| `$PWD`     | The current working directory.                                   | `echo "Current working directory: $PWD"`              |
-| `$OLDPWD`  | The previous working directory.                                  | `echo "Previous working directory: $OLDPWD"`          |
-| `$MAIL`    | The path to the user's mailbox.                                  | `echo "User's mailbox: $MAIL"`                        |
+| Variable | Description | Example Usage |
+| :--- | :--- | :--- |
+| `$0` | The name of the script or shell. | `echo "Script name: $0"` |
+| `$1`, `$2`, ... | Positional parameters representing script arguments. | `echo "First argument: $1"` |
+| `$#` | The number of positional parameters passed to the script. | `echo "Number of arguments: $#"` |
+| `$?` | The exit status of the last command executed. | `echo "Exit status: $?"` |
+| `$@` | All positional parameters (treated as separate words). | `echo "All arguments: $@"` |
+| `$*` | All positional parameters (treated as a single word). | `echo "All arguments: $*"` |
+| `$$` | The process ID (PID) of the current shell. | `echo "Current PID: $$"` |
+| `$!` | The process ID of the last background command. | `echo "Last BG PID: $!"` |
+| `$-` | The current options set for the shell. | `echo "Shell options: $-"` |
+| `$IFS` | The Internal Field Separator. | `echo "IFS: $IFS"` |
+| `$PS1` | The primary prompt string. | `echo "Primary prompt: $PS1"` |
+| `$PS2` | The secondary prompt string. | `echo "Secondary prompt: $PS2"` |
+| `$RANDOM` | A random number between 0 and 32767. | `echo "Random: $RANDOM"` |
+| `$SECONDS` | Seconds since the shell was started. | `echo "Seconds: $SECONDS"` |
+| `$UID` | The user ID of the current user. | `echo "User ID: $UID"` | | `$USER` | The username of the current user. | `echo "User: $USER"` |
+| `$HOME` | The home directory of the current user. | `echo "Home: $HOME"` |
+| `$PWD` | The current working directory. | `echo "PWD: $PWD"` |
+| `$OLDPWD` | The previous working directory. | `echo "Old PWD: $OLDPWD"` |
+| `$MAIL` | The path to the user's mailbox. | `echo "Mailbox: $MAIL"` |
 
 #### Detailed representation
 
@@ -225,7 +224,9 @@ echo "All arguments as a single word: $*"
 ```
 ---
 
+```
 -`$$`: The process ID of the current shell.
+```
 
 ```bash
 echo "Current shell process ID: $$"
@@ -324,4 +325,4 @@ echo "User's mailbox: $MAIL"
 
 ## Conclusion
 
-Bash is a powerful tool for devops engineers and mastering it opens doors to the world of automation and managing complex infrastructure. The ability to use bash either directly in terminal or via scripts is a fundamental skill that distinguishes an implicated engineers from another one who just knows the basic. In the coming blogs we are diving deeper in more complex components of the world of bash. Keep learning!
+Bash is a powerful tool for devops engineers and mastering it opens doors to the world of automation and managing complex infrastructure. The ability to use bash either directly in terminal or via scripts is a fundamental skill that distinguishes an implicated engineers from ones who just know the basic. In the coming blogs we are diving deeper in more complex components of the world of bash. Keep learning!
