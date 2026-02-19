@@ -8,11 +8,11 @@ published_at: 2026-02-20
 
 # Bash fundamentals
 
-## Introduction
+# Introduction
 
 Bash is a powerful shell and scripting language used in many Unix-like operating systems. It provides a command-line interface for users to interact with the system, execute commands, and automate tasks through scripts. Bash is widely used in automation in complex environments because of it is built in every Unix-like system, it's simplicity and portability. In this blog , we are discovering this powerful tool and how to leverage this power in order to be a better DevOps engineer. Let's start.
 
-### Bash interpreter
+## Bash interpreter
 
 The Bash interpreter is the program that reads and executes commands written in the Bash scripting language. It can be invoked in several ways:
 
@@ -31,7 +31,7 @@ The Bash interpreter is the program that reads and executes commands written in 
   ```
 - **Environment variables**: The Bash interpreter can be configured using environment variables, such as `BASH_ENV`, which specifies the path to a file that contains commands to be executed before the script runs.
 
-### Basic script
+## Basic script
 
 A basic Bash script is a text file containing a series of commands that the Bash interpreter can execute. Here’s a simple example:
 
@@ -41,17 +41,17 @@ A basic Bash script is a text file containing a series of commands that the Bash
 echo "Hello, World!"  # Print a message to the terminal
 ```
 
-#### Notes
+### Notes
 
 > [!NOTE] - The first line (`#!/bin/bash`) is the shebang, indicating that the script should be run using the Bash interpreter.
 > - Comments start with `#` and are ignored by the interpreter.
 
 
-## Variables
+# Variables
 
 Bash variables are used to store data that can be referenced and manipulated within scripts or command-line sessions. Variables in Bash do not require explicit declaration of their type, and they can hold strings, numbers, or other data types.
 
-### Defining Variables
+## Defining Variables
 
 To define a variable in Bash, you simply assign a value to a name without spaces around the `=` sign. For example:
 
@@ -98,7 +98,7 @@ Variables in Bash can be categorized into several types:
   echo $PATH
   ```
 
-### Using Variables
+## Using Variables
 
 You can use variables in various contexts, such as in commands, scripts, or conditional statements. Here are some examples:
 
@@ -125,7 +125,7 @@ This will output:
 Count is greater than 5
 ```
 
-### Special Variables
+## Special Variables
 
 Bash has several special variables that provide information about the script or the shell environment:
 
@@ -151,35 +151,36 @@ This will output all arguments passed to the script, separated by spaces.
 All arguments: arg1 arg2 arg3
 ```
 
-### Predefined Variables
+## Predefined Variables
 
 Bash provides several predefined variables that can be used to access information about the script or the shell environment:
 
-#### Table representation
+### Table representation
 
 | Variable | Description | Example Usage |
-| :--- | :--- | :--- |
+|:---|:---|:---|
 | `$0` | The name of the script or shell. | `echo "Script name: $0"` |
-| `$1`, `$2`, ... | Positional parameters representing script arguments. | `echo "First argument: $1"` |
-| `$#` | The number of positional parameters passed to the script. | `echo "Number of arguments: $#"` |
-| `$?` | The exit status of the last command executed. | `echo "Exit status: $?"` |
-| `$@` | All positional parameters (treated as separate words). | `echo "All arguments: $@"` |
-| `$*` | All positional parameters (treated as a single word). | `echo "All arguments: $*"` |
-| `$$` | The process ID (PID) of the current shell. | `echo "Current PID: $$"` |
-| `$!` | The process ID of the last background command. | `echo "Last BG PID: $!"` |
-| `$-` | The current options set for the shell. | `echo "Shell options: $-"` |
-| `$IFS` | The Internal Field Separator. | `echo "IFS: $IFS"` |
-| `$PS1` | The primary prompt string. | `echo "Primary prompt: $PS1"` |
-| `$PS2` | The secondary prompt string. | `echo "Secondary prompt: $PS2"` |
-| `$RANDOM` | A random number between 0 and 32767. | `echo "Random: $RANDOM"` |
-| `$SECONDS` | Seconds since the shell was started. | `echo "Seconds: $SECONDS"` |
-| `$UID` | The user ID of the current user. | `echo "User ID: $UID"` | | `$USER` | The username of the current user. | `echo "User: $USER"` |
-| `$HOME` | The home directory of the current user. | `echo "Home: $HOME"` |
-| `$PWD` | The current working directory. | `echo "PWD: $PWD"` |
-| `$OLDPWD` | The previous working directory. | `echo "Old PWD: $OLDPWD"` |
-| `$MAIL` | The path to the user's mailbox. | `echo "Mailbox: $MAIL"` |
+| `$1`, `$2` | Positional parameters (arguments). | `echo "First argument: $1"` |
+| `$#` | Number of positional parameters. | `echo "Number of args: $#"` |
+| `$?` | Exit status of the last command. | `echo "Exit status: $?"` |
+| `$@` | All parameters (separate words). | `echo "All args: $@"` |
+| `$*` | All parameters (single word). | `echo "All args: $*"` |
+| `$$` | Process ID (PID) of current shell. | `echo "PID: $$"` |
+| `$!` | PID of last background command. | `echo "Last BG PID: $!"` |
+| `$-` | Current shell options. | `echo "Options: $-"` |
+| `$IFS` | Internal Field Separator. | `echo "IFS: $IFS"` |
+| `$PS1` | Primary prompt string. | `echo "PS1: $PS1"` |
+| `$PS2` | Secondary prompt string. | `echo "PS2: $PS2"` |
+| `$RANDOM` | Random number (0-32767). | `echo "Random: $RANDOM"` |
+| `$SECONDS` | Seconds since shell started. | `echo "Seconds: $SECONDS"` |
+| `$UID` | User ID of current user. | `echo "UID: $UID"` |
+| `$USER` | Username of current user. | `echo "User: $USER"` |
+| `$HOME` | Home directory of current user. | `echo "Home: $HOME"` |
+| `$PWD` | Current working directory. | `echo "PWD: $PWD"` |
+| `$OLDPWD` | Previous working directory. | `echo "Old PWD: $OLDPWD"` |
+| `$MAIL` | Path to the user's mailbox. | `echo "Mailbox: $MAIL"` |
 
-#### Detailed representation
+### Detailed representation
 
 ---
 - `$0`: The name of the script or shell.
@@ -323,6 +324,6 @@ echo "Previous working directory: $OLDPWD"
 echo "User's mailbox: $MAIL"
 ```
 
-## Conclusion
+# Conclusion
 
 Bash is a powerful tool for devops engineers and mastering it opens doors to the world of automation and managing complex infrastructure. The ability to use bash either directly in terminal or via scripts is a fundamental skill that distinguishes an implicated engineers from ones who just know the basic. In the coming blogs we are diving deeper in more complex components of the world of bash. Keep learning!
