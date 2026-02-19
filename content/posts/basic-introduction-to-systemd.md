@@ -3,7 +3,7 @@ title: Linux from scratch - Introduction to Systemd [Concepts]
 category: Linux
 tags: OS - system - Engineering - biginner
 excerpt: This blog serves as an introduction to engineers interested in understading how linux system operates under the hood.
-# published_at: 2026-02-19
+published_at: 2026-02-19
 ---
 
 # Systemd
