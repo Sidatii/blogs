@@ -157,28 +157,37 @@ Bash provides several predefined variables that can be used to access informatio
 
 ### Table representation
 
-| Variable | Description | Example Usage |
-| :--- | :--- | :--- |
-| $&zwnj;0 | The name of the script or shell. | `echo "Script name: $&zwnj;0"` |
-| $&zwnj;1, $&zwnj;2 | Positional parameters (arguments). | `echo "First argument: $&zwnj;1"` |
-| $&zwnj;# | Number of positional parameters. | `echo "Number of args: $&zwnj;#"` |
-| $&zwnj;? | Exit status of the last command. | `echo "Exit status: $&zwnj;?"` |
-| $&zwnj;@ | All parameters (separate words). | `echo "All args: $&zwnj;@"` |
-| $&zwnj;* | All parameters (single word). | `echo "All args: $&zwnj;*"` |
-| $&zwnj;$&zwnj; | Process ID (PID) of current shell. | `echo "PID: $&zwnj;$&zwnj;"` |
-| $&zwnj;! | PID of last background command. | `echo "Last BG PID: $&zwnj;!"` |
-| $&zwnj;- | Current shell options. | `echo "Options: $&zwnj;-"` |
-| $&zwnj;IFS | Internal Field Separator. | `echo "IFS: $&zwnj;IFS"` |
-| $&zwnj;PS1 | Primary prompt string. | `echo "PS1: $&zwnj;PS1"` |
-| $&zwnj;PS2 | Secondary prompt string. | `echo "PS2: $&zwnj;PS2"` |
-| $&zwnj;RANDOM | Random number (0-32767). | `echo "Random: $&zwnj;RANDOM"` |
-| $&zwnj;SECONDS | Seconds since shell started. | `echo "Seconds: $&zwnj;SECONDS"` |
-| $&zwnj;UID | User ID of current user. | `echo "UID: $&zwnj;UID"` |
-| $&zwnj;USER | Username of current user. | `echo "User: $&zwnj;USER"` |
-| $&zwnj;HOME | Home directory of current user. | `echo "Home: $&zwnj;HOME"` |
-| $&zwnj;PWD | Current working directory. | `echo "PWD: $&zwnj;PWD"` |
-| $&zwnj;OLDPWD | Previous working directory. | `echo "Old PWD: $&zwnj;OLDPWD"` |
-| $&zwnj;MAIL | Path to the user's mailbox. | `echo "Mailbox: $&zwnj;MAIL"` |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Variable</th>
+      <th align="left">Description</th>
+      <th align="left">Example Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>$0</td><td>The name of the script or shell.</td><td><code>echo "Script name: $0"</code></td></tr>
+    <tr><td>$1, $2</td><td>Positional parameters (arguments).</td><td><code>echo "First argument: $1"</code></td></tr>
+    <tr><td>$#</td><td>Number of positional parameters.</td><td><code>echo "Number of args: $#"</code></td></tr>
+    <tr><td>$?</td><td>Exit status of the last command.</td><td><code>echo "Exit status: $?"</code></td></tr>
+    <tr><td>$@</td><td>All positional parameters (separate).</td><td><code>echo "All args: $@"</code></td></tr>
+    <tr><td>$*</td><td>All positional parameters (single word).</td><td><code>echo "All args: $*"</code></td></tr>
+    <tr><td>$$</td><td>Process ID (PID) of current shell.</td><td><code>echo "PID: $$"</code></td></tr>
+    <tr><td>$!</td><td>PID of last background command.</td><td><code>echo "Last BG PID: $!"</code></td></tr>
+    <tr><td>$-</td><td>Current shell options.</td><td><code>echo "Options: $-"</code></td></tr>
+    <tr><td>$IFS</td><td>Internal Field Separator.</td><td><code>echo "IFS: $IFS"</code></td></tr>
+    <tr><td>$PS1</td><td>Primary prompt string.</td><td><code>echo "PS1: $PS1"</code></td></tr>
+    <tr><td>$PS2</td><td>Secondary prompt string.</td><td><code>echo "PS2: $PS2"</code></td></tr>
+    <tr><td>$RANDOM</td><td>Random number (0-32767).</td><td><code>echo "Random: $RANDOM"</code></td></tr>
+    <tr><td>$SECONDS</td><td>Seconds since shell started.</td><td><code>echo "Seconds: $SECONDS"</code></td></tr>
+    <tr><td>$UID</td><td>User ID of current user.</td><td><code>echo "UID: $UID"</code></td></tr>
+    <tr><td>$USER</td><td>Username of current user.</td><td><code>echo "User: $USER"</code></td></tr>
+    <tr><td>$HOME</td><td>Home directory of current user.</td><td><code>echo "Home: $HOME"</code></td></tr>
+    <tr><td>$PWD</td><td>Current working directory.</td><td><code>echo "PWD: $PWD"</code></td></tr>
+    <tr><td>$OLDPWD</td><td>Previous working directory.</td><td><code>echo "Old PWD: $OLDPWD"</code></td></tr>
+    <tr><td>$MAIL</td><td>Path to the user's mailbox.</td><td><code>echo "Mailbox: $MAIL"</code></td></tr>
+  </tbody>
+</table>
 
 ### Detailed representation
 
