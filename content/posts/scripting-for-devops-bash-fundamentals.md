@@ -158,27 +158,27 @@ Bash provides several predefined variables that can be used to access informatio
 ### Table representation
 
 | Variable | Description | Example Usage |
-|:---|:---|:---|
-| `$0` | The name of the script or shell. | `echo "Script name: $0"` |
-| `$1`, `$2` | Positional parameters (arguments). | `echo "First argument: $1"` |
-| `$#` | Number of positional parameters. | `echo "Number of args: $#"` |
-| `$?` | Exit status of the last command. | `echo "Exit status: $?"` |
-| `$@` | All parameters (separate words). | `echo "All args: $@"` |
-| `$*` | All parameters (single word). | `echo "All args: $*"` |
-| `$$` | Process ID (PID) of current shell. | `echo "PID: $$"` |
-| `$!` | PID of last background command. | `echo "Last BG PID: $!"` |
-| `$-` | Current shell options. | `echo "Options: $-"` |
-| `$IFS` | Internal Field Separator. | `echo "IFS: $IFS"` |
-| `$PS1` | Primary prompt string. | `echo "PS1: $PS1"` |
-| `$PS2` | Secondary prompt string. | `echo "PS2: $PS2"` |
-| `$RANDOM` | Random number (0-32767). | `echo "Random: $RANDOM"` |
-| `$SECONDS` | Seconds since shell started. | `echo "Seconds: $SECONDS"` |
-| `$UID` | User ID of current user. | `echo "UID: $UID"` |
-| `$USER` | Username of current user. | `echo "User: $USER"` |
-| `$HOME` | Home directory of current user. | `echo "Home: $HOME"` |
-| `$PWD` | Current working directory. | `echo "PWD: $PWD"` |
-| `$OLDPWD` | Previous working directory. | `echo "Old PWD: $OLDPWD"` |
-| `$MAIL` | Path to the user's mailbox. | `echo "Mailbox: $MAIL"` |
+| :--- | :--- | :--- |
+| **$0** | The name of the script or shell. | `echo "Script name: $0"` |
+| **$1, $2** | Positional parameters (arguments). | `echo "First argument: $1"` |
+| **$#** | Number of positional parameters. | `echo "Number of args: $#"` |
+| **$?** | Exit status of the last command. | `echo "Exit status: $?"` |
+| **$@** | All parameters (separate words). | `echo "All args: $@"` |
+| **$*** | All parameters (single word). | `echo "All args: $*"` |
+| **$$** | Process ID (PID) of current shell. | `echo "PID: $$"` |
+| **$!** | PID of last background command. | `echo "Last BG PID: $!"` |
+| **$-** | Current shell options. | `echo "Options: $-"` |
+| **$IFS** | Internal Field Separator. | `echo "IFS: $IFS"` |
+| **$PS1** | Primary prompt string. | `echo "PS1: $PS1"` |
+| **$PS2** | Secondary prompt string. | `echo "PS2: $PS2"` |
+| **$RANDOM** | Random number (0-32767). | `echo "Random: $RANDOM"` |
+| **$SECONDS** | Seconds since shell started. | `echo "Seconds: $SECONDS"` |
+| **$UID** | User ID of current user. | `echo "UID: $UID"` |
+| **$USER** | Username of current user. | `echo "User: $USER"` |
+| **$HOME** | Home directory of current user. | `echo "Home: $HOME"` |
+| **$PWD** | Current working directory. | `echo "PWD: $PWD"` |
+| **$OLDPWD** | Previous working directory. | `echo "Old PWD: $OLDPWD"` |
+| **$MAIL** | Path to the user's mailbox. | `echo "Mailbox: $MAIL"` |
 
 ### Detailed representation
 
